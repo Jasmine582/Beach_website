@@ -1,0 +1,58 @@
+body::before {
+    display:block;
+    content: '';
+    height: 50px;   
+}
+/* Basic Styles */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Arima Madurai', cursive;
+}
+p {
+    font-family: 'Xanh Mono', monospace;
+}
+.boxes {
+    background-color:#c3e1f5;
+}
+.bg-color,
+.bg-cus,
+.list-group-item,
+.accordion-button,
+.accordion-body  {
+background-color: #abdaf5;
+}
+.crew {
+    background-color: #BFB6AD;
+}
+
+.ht h1 span{
+    font-family: 'Rampart One', cursive;
+}
+/* Nav Bar */
+.navbar-brand  {
+    font-size: 2em;
+    font-family: 'Rampart One', cursive;
+    color: rgb(28, 120, 240);
+}
+#navmenu a {
+    color: rgb(28, 120, 240);
+    font-family: 'Xanh Mono', monospace;
+    font-size: 1.3rem;
+}
+
+/* contact section */
+.contact {
+    background: url(../img/beach2.jpeg) ;
+    background-size: auto;
+    background-position: center;
+    min-height: 5px;
+}
+.copyright {
+    font-family: 'Rampart One', cursive;
+    color: rgb(28, 120, 240);
+}
+/* Newsletter signup */
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}

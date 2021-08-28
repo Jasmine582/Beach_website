@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <title>Beach website</title>
+</head>
+<body>
+    <!--Nav Bar-->
+   <nav class="navbar navbar-expand-lg bg-cus  py-3 fixed-top">
+       <div class="container">
+         <a href="#" class="navbar-brand ">Beach Website</a>
+         <button 
+             class="navbar-toggler" 
+             type="button" 
+             data-bs-toggle="collapse" 
+             data-bs-target=#navmenu>
+             <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+               <li class="nav-item "><a href="#learn" class="nav-link ">Our Resort</a></li>
+               <li class="nav-item"><a href="#questions" class="nav-link">Questions</a></li>
+               <li class="nav-item"><a href="#crew" class="nav-link">Our Crew</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+<!--hero-->
+<section class="contact text-light p-5 p-lg-0  pt-lg-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="ht">
+                <h1>Beach <span class="text-dark">Escape</span></h1>
+                <p class="lead my-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos odio ea et ipsa nemo sint quasi cumque dolores autem.
+                </p>
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#join"> Join Now!</button>
+            </div>
+            <img class="img-fluid w-50 d-none d-sm-block mb-md-2" src="/img/beach.jpeg" alt="">
+        </div>
+    </div>
+</section>
+<!-- Newsletter -->
+<section class="bg-primary text-light p-4">
+    <div class="container">
+        <div class="d-md-flex  justify-content-between align-items-center">
+            <h3 class= "mb-3.mb-md-0">Sign Up For Our Newsletter</h3>
+            <div class="input-group news-input">
+                <input
+                type="text"
+                class="form-control" 
+                placeholder="Enter Email" 
+                >
+                <button 
+                class="btn bg-color btn-lg" 
+                type="button" 
+                id="button-addon2">Submit</button>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- Boxes -->
+<section class="p-5 boxes">
+    <div class="container">
+        <div class="row text-center g-2">
+            <div class="col-md">
+                <div class="card contact text-light">
+                    <div class="card-body text-center">
+                        <!-- card1 -->
+                        <div class="h1 mb-3">
+                            <i class= "bi-cup-straw"></i>
+                            </div>
+                            <h3 class="card-title mb-3"> Relax</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, optio?
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+                  <!-- card2-->
+            <div class="col-md">
+                <div class="card contact text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class= "bi bi-sunglasses "></i>
+                            </div>
+                            <h3 class="card-title mb-3"> Unwind</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, optio?
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+              <!-- card3 -->
+            <div class="col-md">
+                <div class="card contact text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class= "bi-wifi-off"></i>
+                            </div>
+                            <h3 class="card-title mb-3"> No-Wifi</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, optio?
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- learn sections -->
+<!-- Our Resort-->
+<section id="learn" class="p-5 boxes">
+<div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+          <img src="/img/resort.jpeg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md p-5">
+          <h2>Our Resort</h2>
+          <p class="lead">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nobis numquam vitae nesciunt ut velit molestiae! Qui, sit animi. Reprehenderit?
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente dicta itaque. Dolores, beatae? Dolorum, facere! Cupiditate adipisci aliquid exercitationem.</p>
+          <a href="#" class="btn  mt-3">
+              <i class="bi bi-chevron-right">Read More</i>
+          </a>
+      </div>
+    </div>
+</div>
+</section>
+<!-- Get Away-->
+<section class="p-5 bg-color">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+              <h2 class="card-color">Escape To the Clear Waters</h2>
+              <p class="lead card-color">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nobis numquam vitae nesciunt ut velit molestiae! Qui, sit animi. Reprehenderit?
+              </p>
+              <p class="card-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente dicta itaque. Dolores, beatae? Dolorum, facere! Cupiditate adipisci aliquid exercitationem.</p>
+              <a href="#" class="btn card-color mt-3">
+                  <i class="bi bi-chevron-right">Read More</i>
+              </a>
+          </div>
+          <div class="col-md">
+            <img src="/img/beach3.jpeg" class="img-fluid" alt="">
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-- questions -->
+    <section  id="questions" class="p-5 contact">
+         <div class="container">
+                <h2 class="text-center mb-4 text-white">Frequently Asked Questions</h2>
+                <div class="accordion accordion-flush">
+                    <!-- question 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" >
+                            <button 
+                            class="accordion-button collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#question-one" 
+                            >
+                            Where are you located?
+                            </button>
+                        </h2>
+                        <div id="question-one" class="accordion-collapse collapse" 
+                        data-bs-parent="#accordionFlushExample"
+                        >
+                        <div class="accordion-body">
+                                Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+                                <div>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</div>
+                        </div>
+                    </div>
+                </div>
+    <!-- question 2-->
+                 <div class="accordion-item">
+                            <h2 class="accordion-header" >
+                                <button 
+                                class="accordion-button collapsed" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#question-two" 
+                                >
+                                How's the Lodging?
+                                </button>
+                            </h2>
+                            <div id="question-two" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                            >
+                            <div class="accordion-body">
+                                    Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+                                    <div>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</div>
+                            </div>
+                        </div>
+                    </div>
+<!-- question 3-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" >
+                            <button 
+                            class="accordion-button collapsed" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#question-three" 
+                            >
+                            How much does this Trip Cost?
+                            </button>
+                        </h2>
+                        <div id="question-three" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                        >
+                        <div class="accordion-body">
+                                Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+                                <div>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</div>
+                        </div>
+                    </div>
+                    </div>
+                <!-- question 4-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" >
+                        <button 
+                        class="accordion-button collapsed" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#question-four" 
+                        >
+                        Where do I sign up?
+                        </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                    >
+                    <div class="accordion-body">
+                            Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+                            <div>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Crew Section -->
+    <section id="crew" class="p-5 boxes">
+        <h2 class="text-center text-dark">Our Crew</h2>
+          <p class="lead text-center text-whtie mb-5">
+              Our Crew  are the best in town and they can not wait to see you 
+          </p>
+        <div class="row g-4">
+            <!-- Crew 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card contact text-white">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">John Doe</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatum. Quo consectetur ad non accusamus, ut quidem illum aliquam dolor deleniti rem, iure sed quibusdam delectus. Odio cumque molestias suscipit vero? Eaque architecto dicta magni.</p>
+                        <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+              <!-- Crew 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card crew">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/3.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Jane Doe</h3>
+                        <p class="card-text">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No?.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+              <!-- Crew 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card contact text-white">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/53.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Richard Smith</h3>
+                        <p class="card-text">Cupcake ipsum dolor. Sit amet marshmallow topping cheesecake muffin. Halvah croissant candy canes bonbon candy. Apple pie jelly beans topping carrot cake danish tart cake cheesecake. Muffin danish chocolate soufflé pastry icing bonbon oat cake. Powder cake jujubes oat cake.</p>
+                        <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Crew 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card crew">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/73.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Randi Kotone</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatum. Quo consectetur ad non accusamus, ut quidem illum aliquam dolor deleniti rem, iure sed quibusdam delectus. Odio cumque molestias suscipit vero? Eaque architecto dicta magni.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+             <!-- Crew 5-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card contact text-white">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/30.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Elvira Rositsa</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatum. Quo consectetur ad non accusamus, ut quidem illum aliquam dolor deleniti rem, iure sed quibusdam delectus. Odio cumque molestias suscipit vero? Eaque architecto dicta magni.</p>
+                        <a href="#"><i class="bi bi-twitter text-white mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-white mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-white mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Crew 6-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card crew">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/73.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Na'im Iulianus</h3>
+                        <p class="card-text">Pommy ipsum smeg head whizz morris dancers come hither, bugger codswallop gob. Taking the mick middle class bog roll bow ties are cool posh nosh off t'shop, stew and dumps taking the mick know your onions pulled a right corker 'tis, anorak mince pies tosser warts and all knackered beat.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+               <!-- Crew 7-->
+            <div class="col-md-6 col-lg-3">
+                <div class="card contact text-white">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/63.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Yianna Flora</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatum. Quo consectetur ad non accusamus, ut quidem illum aliquam dolor deleniti rem, iure sed quibusdam delectus. Odio cumque molestias suscipit vero? Eaque architecto dicta magni.</p>
+                        <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card crew">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/95.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Minoru Maan</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatum. Quo consectetur ad non accusamus, ut quidem illum aliquam dolor deleniti rem, iure sed quibusdam delectus. Odio cumque molestias suscipit vero? Eaque architecto dicta magni.</p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact and map -->
+    <section class="p-5  contact">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> 50 Main St Los Angeles CA
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone Number:</span> (555) 555-5555
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email Address:</span> info@beachwebsite.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <img src="/img/map.png " class= "mb-2 img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="p-2 bg-cus  text-center position-relative">
+        <div class="container">
+            <p class="lead copyright">Copyright &copy;  2021 | Beach Website</p>
+            <a href="" class="position-absolute bottom-0 end-0 p-3">
+                <i class="bg-transparent bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- Modal -->
+<div class="modal fade" id="join" tabindex="-1"  aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to join us?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form>
+              <div class="mb-3">
+                  <label for="first-name" class="col-form-label">First Name:</label>
+                  <input type="text" class="form-control" id="first-name">
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="tel" class="form-control" id="phone">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
