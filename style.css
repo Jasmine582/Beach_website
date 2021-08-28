@@ -41,7 +41,7 @@ background-color: #abdaf5;
 
 /* contact section */
 .contact {
-    background: url(../img/beach2.jpeg) ;
+    background: url(/img/beach2.jpeg) ;
     background-size: auto;
     background-position: center;
     min-height: 5px;
